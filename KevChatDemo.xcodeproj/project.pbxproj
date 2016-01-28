@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B92C2DAA2526B44977610D4 /* libPods-KevChatDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FDA30F411EB324AFF082F558 /* libPods-KevChatDemo.a */; };
+		28CD4CBB1C5ABFEF003BF7EA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28CD4CBA1C5ABFEF003BF7EA /* main.m */; };
+		28CD4CC61C5ABFEF003BF7EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28CD4CC51C5ABFEF003BF7EA /* Assets.xcassets */; };
+		28CD4CC91C5ABFEF003BF7EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28CD4CC71C5ABFEF003BF7EA /* LaunchScreen.storyboard */; };
+		28CD4CD21C5AC564003BF7EA /* WEXAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 28CD4CD11C5AC564003BF7EA /* WEXAppDelegate.m */; };
+		28CD4CDD1C5AC572003BF7EA /* LoginTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28CD4CD41C5AC572003BF7EA /* LoginTableViewController.m */; };
+		28CD4CDE1C5AC572003BF7EA /* EditDialogTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28CD4CD61C5AC572003BF7EA /* EditDialogTableViewController.m */; };
+		28CD4CDF1C5AC572003BF7EA /* DialogInfoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28CD4CD81C5AC572003BF7EA /* DialogInfoTableViewController.m */; };
+		28CD4CE01C5AC572003BF7EA /* DialogsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28CD4CDA1C5AC572003BF7EA /* DialogsViewController.m */; };
+		28CD4CE11C5AC572003BF7EA /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28CD4CDC1C5AC572003BF7EA /* ChatViewController.m */; };
+		28CD4CE31C5AC586003BF7EA /* Chat.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28CD4CE21C5AC586003BF7EA /* Chat.storyboard */; };
+		28CD4CE51C5AC5C8003BF7EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28CD4CE41C5AC5C8003BF7EA /* Main.storyboard */; };
+		28CD4CE81C5AC661003BF7EA /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28CD4CE71C5AC661003BF7EA /* MainViewController.m */; };
+		28CD4CEE1C5AC6D0003BF7EA /* ServicesManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 28CD4CEA1C5AC6D0003BF7EA /* ServicesManager.m */; };
+		28CD4CEF1C5AC6D0003BF7EA /* NotificationService.m in Sources */ = {isa = PBXBuildFile; fileRef = 28CD4CED1C5AC6D0003BF7EA /* NotificationService.m */; };
+		28CD4CF21C5AC6DC003BF7EA /* UsersDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 28CD4CF11C5AC6DC003BF7EA /* UsersDataSource.m */; };
+		28CD4CFA1C5AC890003BF7EA /* UserTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 28CD4CF51C5AC890003BF7EA /* UserTableViewCell.m */; };
+		28CD4CFB1C5AC890003BF7EA /* CornerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 28CD4CF71C5AC890003BF7EA /* CornerView.m */; };
+		28CD4CFC1C5AC890003BF7EA /* DialogTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 28CD4CF91C5AC890003BF7EA /* DialogTableViewCell.m */; };
+		28CD4CFF1C5AC985003BF7EA /* MessageStatusStringBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 28CD4CFE1C5AC985003BF7EA /* MessageStatusStringBuilder.m */; };
+		28CD4D021C5AC9A7003BF7EA /* UIImage+fixOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = 28CD4D011C5AC9A7003BF7EA /* UIImage+fixOrientation.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		28CD4CB61C5ABFEF003BF7EA /* KevChatDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KevChatDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		28CD4CBA1C5ABFEF003BF7EA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		28CD4CC51C5ABFEF003BF7EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		28CD4CC81C5ABFEF003BF7EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		28CD4CCA1C5ABFEF003BF7EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28CD4CD01C5AC564003BF7EA /* WEXAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WEXAppDelegate.h; sourceTree = "<group>"; };
+		28CD4CD11C5AC564003BF7EA /* WEXAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WEXAppDelegate.m; sourceTree = "<group>"; };
+		28CD4CD31C5AC572003BF7EA /* LoginTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginTableViewController.h; sourceTree = "<group>"; };
+		28CD4CD41C5AC572003BF7EA /* LoginTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginTableViewController.m; sourceTree = "<group>"; };
+		28CD4CD51C5AC572003BF7EA /* EditDialogTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditDialogTableViewController.h; sourceTree = "<group>"; };
+		28CD4CD61C5AC572003BF7EA /* EditDialogTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditDialogTableViewController.m; sourceTree = "<group>"; };
+		28CD4CD71C5AC572003BF7EA /* DialogInfoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DialogInfoTableViewController.h; sourceTree = "<group>"; };
+		28CD4CD81C5AC572003BF7EA /* DialogInfoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DialogInfoTableViewController.m; sourceTree = "<group>"; };
+		28CD4CD91C5AC572003BF7EA /* DialogsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DialogsViewController.h; sourceTree = "<group>"; };
+		28CD4CDA1C5AC572003BF7EA /* DialogsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DialogsViewController.m; sourceTree = "<group>"; };
+		28CD4CDB1C5AC572003BF7EA /* ChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatViewController.h; sourceTree = "<group>"; };
+		28CD4CDC1C5AC572003BF7EA /* ChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatViewController.m; sourceTree = "<group>"; };
+		28CD4CE21C5AC586003BF7EA /* Chat.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Chat.storyboard; sourceTree = "<group>"; };
+		28CD4CE41C5AC5C8003BF7EA /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		28CD4CE61C5AC661003BF7EA /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		28CD4CE71C5AC661003BF7EA /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		28CD4CE91C5AC6D0003BF7EA /* ServicesManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServicesManager.h; sourceTree = "<group>"; };
+		28CD4CEA1C5AC6D0003BF7EA /* ServicesManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServicesManager.m; sourceTree = "<group>"; };
+		28CD4CEB1C5AC6D0003BF7EA /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		28CD4CEC1C5AC6D0003BF7EA /* NotificationService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationService.h; sourceTree = "<group>"; };
+		28CD4CED1C5AC6D0003BF7EA /* NotificationService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationService.m; sourceTree = "<group>"; };
+		28CD4CF01C5AC6DC003BF7EA /* UsersDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UsersDataSource.h; sourceTree = "<group>"; };
+		28CD4CF11C5AC6DC003BF7EA /* UsersDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UsersDataSource.m; sourceTree = "<group>"; };
+		28CD4CF31C5AC6F9003BF7EA /* KevChatDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KevChatDemo-Prefix.pch"; sourceTree = "<group>"; };
+		28CD4CF41C5AC890003BF7EA /* UserTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserTableViewCell.h; sourceTree = "<group>"; };
+		28CD4CF51C5AC890003BF7EA /* UserTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserTableViewCell.m; sourceTree = "<group>"; };
+		28CD4CF61C5AC890003BF7EA /* CornerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CornerView.h; sourceTree = "<group>"; };
+		28CD4CF71C5AC890003BF7EA /* CornerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CornerView.m; sourceTree = "<group>"; };
+		28CD4CF81C5AC890003BF7EA /* DialogTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DialogTableViewCell.h; sourceTree = "<group>"; };
+		28CD4CF91C5AC890003BF7EA /* DialogTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DialogTableViewCell.m; sourceTree = "<group>"; };
+		28CD4CFD1C5AC985003BF7EA /* MessageStatusStringBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageStatusStringBuilder.h; sourceTree = "<group>"; };
+		28CD4CFE1C5AC985003BF7EA /* MessageStatusStringBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageStatusStringBuilder.m; sourceTree = "<group>"; };
+		28CD4D001C5AC9A7003BF7EA /* UIImage+fixOrientation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+fixOrientation.h"; sourceTree = "<group>"; };
+		28CD4D011C5AC9A7003BF7EA /* UIImage+fixOrientation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+fixOrientation.m"; sourceTree = "<group>"; };
+		4392A1F113E1F34F04CEA77E /* Pods-KevChatDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KevChatDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-KevChatDemo/Pods-KevChatDemo.release.xcconfig"; sourceTree = "<group>"; };
+		7C19648193005E576707BF6E /* Pods-KevChatDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KevChatDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KevChatDemo/Pods-KevChatDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		FDA30F411EB324AFF082F558 /* libPods-KevChatDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KevChatDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28CD4CB31C5ABFEF003BF7EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B92C2DAA2526B44977610D4 /* libPods-KevChatDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28CD4CAD1C5ABFEF003BF7EA = {
+			isa = PBXGroup;
+			children = (
+				28CD4CB81C5ABFEF003BF7EA /* KevChatDemo */,
+				28CD4CB71C5ABFEF003BF7EA /* Products */,
+				5AF96AA1743B2A2F66E229CC /* Pods */,
+				ED1143E2364B47135A0F775E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		28CD4CB71C5ABFEF003BF7EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28CD4CB61C5ABFEF003BF7EA /* KevChatDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28CD4CB81C5ABFEF003BF7EA /* KevChatDemo */ = {
+			isa = PBXGroup;
+			children = (
+				28CD4CD31C5AC572003BF7EA /* LoginTableViewController.h */,
+				28CD4CD41C5AC572003BF7EA /* LoginTableViewController.m */,
+				28CD4CD51C5AC572003BF7EA /* EditDialogTableViewController.h */,
+				28CD4CD61C5AC572003BF7EA /* EditDialogTableViewController.m */,
+				28CD4CD71C5AC572003BF7EA /* DialogInfoTableViewController.h */,
+				28CD4CD81C5AC572003BF7EA /* DialogInfoTableViewController.m */,
+				28CD4CD91C5AC572003BF7EA /* DialogsViewController.h */,
+				28CD4CDA1C5AC572003BF7EA /* DialogsViewController.m */,
+				28CD4CDB1C5AC572003BF7EA /* ChatViewController.h */,
+				28CD4CDC1C5AC572003BF7EA /* ChatViewController.m */,
+				28CD4CE61C5AC661003BF7EA /* MainViewController.h */,
+				28CD4CE71C5AC661003BF7EA /* MainViewController.m */,
+				28CD4CE91C5AC6D0003BF7EA /* ServicesManager.h */,
+				28CD4CEA1C5AC6D0003BF7EA /* ServicesManager.m */,
+				28CD4CF41C5AC890003BF7EA /* UserTableViewCell.h */,
+				28CD4CF51C5AC890003BF7EA /* UserTableViewCell.m */,
+				28CD4CF61C5AC890003BF7EA /* CornerView.h */,
+				28CD4CF71C5AC890003BF7EA /* CornerView.m */,
+				28CD4CF81C5AC890003BF7EA /* DialogTableViewCell.h */,
+				28CD4CF91C5AC890003BF7EA /* DialogTableViewCell.m */,
+				28CD4CF01C5AC6DC003BF7EA /* UsersDataSource.h */,
+				28CD4CF11C5AC6DC003BF7EA /* UsersDataSource.m */,
+				28CD4CEB1C5AC6D0003BF7EA /* Constants.h */,
+				28CD4CEC1C5AC6D0003BF7EA /* NotificationService.h */,
+				28CD4CED1C5AC6D0003BF7EA /* NotificationService.m */,
+				28CD4CFD1C5AC985003BF7EA /* MessageStatusStringBuilder.h */,
+				28CD4CFE1C5AC985003BF7EA /* MessageStatusStringBuilder.m */,
+				28CD4D001C5AC9A7003BF7EA /* UIImage+fixOrientation.h */,
+				28CD4D011C5AC9A7003BF7EA /* UIImage+fixOrientation.m */,
+				28CD4CC51C5ABFEF003BF7EA /* Assets.xcassets */,
+				28CD4CD01C5AC564003BF7EA /* WEXAppDelegate.h */,
+				28CD4CD11C5AC564003BF7EA /* WEXAppDelegate.m */,
+				28CD4CF31C5AC6F9003BF7EA /* KevChatDemo-Prefix.pch */,
+				28CD4CE41C5AC5C8003BF7EA /* Main.storyboard */,
+				28CD4CE21C5AC586003BF7EA /* Chat.storyboard */,
+				28CD4CC71C5ABFEF003BF7EA /* LaunchScreen.storyboard */,
+				28CD4CCA1C5ABFEF003BF7EA /* Info.plist */,
+				28CD4CB91C5ABFEF003BF7EA /* Supporting Files */,
+			);
+			path = KevChatDemo;
+			sourceTree = "<group>";
+		};
+		28CD4CB91C5ABFEF003BF7EA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				28CD4CBA1C5ABFEF003BF7EA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5AF96AA1743B2A2F66E229CC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7C19648193005E576707BF6E /* Pods-KevChatDemo.debug.xcconfig */,
+				4392A1F113E1F34F04CEA77E /* Pods-KevChatDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		ED1143E2364B47135A0F775E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FDA30F411EB324AFF082F558 /* libPods-KevChatDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		28CD4CB51C5ABFEF003BF7EA /* KevChatDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28CD4CCD1C5ABFF0003BF7EA /* Build configuration list for PBXNativeTarget "KevChatDemo" */;
+			buildPhases = (
+				6F423C9E80A228C8D292CADA /* Check Pods Manifest.lock */,
+				28CD4CB21C5ABFEF003BF7EA /* Sources */,
+				28CD4CB31C5ABFEF003BF7EA /* Frameworks */,
+				28CD4CB41C5ABFEF003BF7EA /* Resources */,
+				5DCCC9F2145F42581EC0CFC8 /* Embed Pods Frameworks */,
+				2C3A9478F284190597237D70 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KevChatDemo;
+			productName = KevChatDemo;
+			productReference = 28CD4CB61C5ABFEF003BF7EA /* KevChatDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		28CD4CAE1C5ABFEF003BF7EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = KEV;
+				TargetAttributes = {
+					28CD4CB51C5ABFEF003BF7EA = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 28CD4CB11C5ABFEF003BF7EA /* Build configuration list for PBXProject "KevChatDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 28CD4CAD1C5ABFEF003BF7EA;
+			productRefGroup = 28CD4CB71C5ABFEF003BF7EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				28CD4CB51C5ABFEF003BF7EA /* KevChatDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		28CD4CB41C5ABFEF003BF7EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28CD4CE31C5AC586003BF7EA /* Chat.storyboard in Resources */,
+				28CD4CC91C5ABFEF003BF7EA /* LaunchScreen.storyboard in Resources */,
+				28CD4CC61C5ABFEF003BF7EA /* Assets.xcassets in Resources */,
+				28CD4CE51C5AC5C8003BF7EA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2C3A9478F284190597237D70 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KevChatDemo/Pods-KevChatDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5DCCC9F2145F42581EC0CFC8 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KevChatDemo/Pods-KevChatDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F423C9E80A228C8D292CADA /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28CD4CB21C5ABFEF003BF7EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28CD4CF21C5AC6DC003BF7EA /* UsersDataSource.m in Sources */,
+				28CD4CBB1C5ABFEF003BF7EA /* main.m in Sources */,
+				28CD4D021C5AC9A7003BF7EA /* UIImage+fixOrientation.m in Sources */,
+				28CD4CDF1C5AC572003BF7EA /* DialogInfoTableViewController.m in Sources */,
+				28CD4CEF1C5AC6D0003BF7EA /* NotificationService.m in Sources */,
+				28CD4CFF1C5AC985003BF7EA /* MessageStatusStringBuilder.m in Sources */,
+				28CD4CFB1C5AC890003BF7EA /* CornerView.m in Sources */,
+				28CD4CE01C5AC572003BF7EA /* DialogsViewController.m in Sources */,
+				28CD4CE81C5AC661003BF7EA /* MainViewController.m in Sources */,
+				28CD4CFC1C5AC890003BF7EA /* DialogTableViewCell.m in Sources */,
+				28CD4CDD1C5AC572003BF7EA /* LoginTableViewController.m in Sources */,
+				28CD4CEE1C5AC6D0003BF7EA /* ServicesManager.m in Sources */,
+				28CD4CFA1C5AC890003BF7EA /* UserTableViewCell.m in Sources */,
+				28CD4CD21C5AC564003BF7EA /* WEXAppDelegate.m in Sources */,
+				28CD4CE11C5AC572003BF7EA /* ChatViewController.m in Sources */,
+				28CD4CDE1C5AC572003BF7EA /* EditDialogTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		28CD4CC71C5ABFEF003BF7EA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28CD4CC81C5ABFEF003BF7EA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		28CD4CCB1C5ABFEF003BF7EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		28CD4CCC1C5ABFEF003BF7EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		28CD4CCE1C5ABFF0003BF7EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C19648193005E576707BF6E /* Pods-KevChatDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "KevChatDemo/KevChatDemo-Prefix.pch";
+				INFOPLIST_FILE = KevChatDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KEV.KevChatDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		28CD4CCF1C5ABFF0003BF7EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4392A1F113E1F34F04CEA77E /* Pods-KevChatDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "KevChatDemo/KevChatDemo-Prefix.pch";
+				INFOPLIST_FILE = KevChatDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KEV.KevChatDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28CD4CB11C5ABFEF003BF7EA /* Build configuration list for PBXProject "KevChatDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28CD4CCB1C5ABFEF003BF7EA /* Debug */,
+				28CD4CCC1C5ABFEF003BF7EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28CD4CCD1C5ABFF0003BF7EA /* Build configuration list for PBXNativeTarget "KevChatDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28CD4CCE1C5ABFF0003BF7EA /* Debug */,
+				28CD4CCF1C5ABFF0003BF7EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 28CD4CAE1C5ABFEF003BF7EA /* Project object */;
+}
